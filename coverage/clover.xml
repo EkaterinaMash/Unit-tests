@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1686136081747" clover="3.2.0">
+  <project timestamp="1686136081747" name="All files">
+    <metrics statements="304" coveredstatements="304" conditionals="148" coveredconditionals="148" methods="38" coveredmethods="38" elements="490" coveredelements="490" complexity="0" loc="304" ncloc="304" packages="3" files="20" classes="20"/>
+    <package name="unit-tests">
+      <metrics statements="49" coveredstatements="49" conditionals="41" coveredconditionals="41" methods="15" coveredmethods="15"/>
+      <file name="common-functions.js" path="D:\learning\unit-tests\common-functions.js">
+        <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="9" count="227" type="stmt"/>
+        <line num="10" count="227" type="stmt"/>
+        <line num="14" count="33" type="stmt"/>
+        <line num="16" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="32" type="stmt"/>
+        <line num="18" count="80" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="33" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="17" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="41" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="43" count="16" type="stmt"/>
+        <line num="45" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="53" count="15" type="stmt"/>
+      </file>
+      <file name="error-checks.js" path="D:\learning\unit-tests\error-checks.js">
+        <metrics statements="17" coveredstatements="17" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="4" count="60" type="cond" truecount="4" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="10" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="16" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="22" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="28" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="35" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="41" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="15" type="stmt"/>
+      </file>
+      <file name="types-checking.js" path="D:\learning\unit-tests\types-checking.js">
+        <metrics statements="9" coveredstatements="9" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
+        <line num="2" count="138" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="53" type="stmt"/>
+        <line num="8" count="124" type="cond" truecount="4" falsecount="0"/>
+        <line num="9" count="90" type="stmt"/>
+        <line num="14" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="20" count="30" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="unit-tests.arrays.tasks">
+      <metrics statements="170" coveredstatements="170" conditionals="77" coveredconditionals="77" methods="14" coveredmethods="14"/>
+      <file name="chunk.js" path="D:\learning\unit-tests\arrays\tasks\chunk.js">
+        <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="compact.js" path="D:\learning\unit-tests\arrays\tasks\compact.js">
+        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="15" type="cond" truecount="6" falsecount="0"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="concat.js" path="D:\learning\unit-tests\arrays\tasks\concat.js">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="drop.js" path="D:\learning\unit-tests\arrays\tasks\drop.js">
+        <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="dropWhile.js" path="D:\learning\unit-tests\arrays\tasks\dropWhile.js">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="filter.js" path="D:\learning\unit-tests\arrays\tasks\filter.js">
+        <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="25" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+      <file name="find.js" path="D:\learning\unit-tests\arrays\tasks\find.js">
+        <metrics statements="16" coveredstatements="16" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="includes.js" path="D:\learning\unit-tests\arrays\tasks\includes.js">
+        <metrics statements="23" coveredstatements="23" conditionals="24" coveredconditionals="24" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="25" type="cond" truecount="5" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="19" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="19" type="stmt"/>
+        <line num="28" count="20" type="stmt"/>
+        <line num="29" count="44" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="33" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="35" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="41" count="13" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+      <file name="map.js" path="D:\learning\unit-tests\arrays\tasks\map.js">
+        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="14" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="22" count="27" type="stmt"/>
+        <line num="23" count="26" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+      <file name="take.js" path="D:\learning\unit-tests\arrays\tasks\take.js">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="zip.js" path="D:\learning\unit-tests\arrays\tasks\zip.js">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="26" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="unit-tests.objects.tasks">
+      <metrics statements="85" coveredstatements="85" conditionals="30" coveredconditionals="30" methods="9" coveredmethods="9"/>
+      <file name="merge.js" path="D:\learning\unit-tests\objects\tasks\merge.js">
+        <metrics statements="26" coveredstatements="26" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="33" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="omit.js" path="D:\learning\unit-tests\objects\tasks\omit.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="omitBy.js" path="D:\learning\unit-tests\objects\tasks\omitBy.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="pick.js" path="D:\learning\unit-tests\objects\tasks\pick.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="pickBy.js" path="D:\learning\unit-tests\objects\tasks\pickBy.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="toPairs.js" path="D:\learning\unit-tests\objects\tasks\toPairs.js">
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
